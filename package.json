@@ -1,0 +1,17 @@
+{
+  "name": "ts-patch-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build:webpack": "ts-patch install && webpack",
+    "build:tsc": "ts-patch install && tsc"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "ts-patch": "^3.0.2",
+    "typescript": "5.2.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
