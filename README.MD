@@ -1,3 +1,5 @@
+### Minimal reproduction of the [issue with ts-patch and bundlers](https://github.com/nonara/ts-patch/issues/139)
+
 This repo contains `customTransformer.js` file
 which is custom typescript transformer that is adding `ts.Diagnostic`
 using ts-patch API.
