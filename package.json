@@ -5,12 +5,15 @@
   "license": "MIT",
   "scripts": {
     "build:webpack": "ts-patch install && webpack",
+    "build:vite": "ts-patch install && vite build",
     "build:tsc": "ts-patch install && tsc"
   },
   "devDependencies": {
+    "rollup-plugin-typescript2": "^0.36.0",
     "ts-loader": "^9.5.1",
-    "ts-patch": "^3.0.2",
+    "ts-patch": "3.1.0",
     "typescript": "5.2.2",
+    "vite": "^5.0.5",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
   }

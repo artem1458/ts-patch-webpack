@@ -4,7 +4,7 @@ module.exports = (program, config, transformerExtras) => {
     return context => sourceFile => {
         const visitor = (node) => {
             if (ts.isClassDeclaration(node)) {
-                console.log('Custom transformer is working');
+                console.log('\nCustom transformer is working');
 
                 const diagnostics = {
                     messageText: 'MyCustomTransformationError',
